@@ -1,0 +1,15 @@
+CompileFlags:
+  CompilationDatabase: build
+  Add:
+    - "-Wno-unknown-warning-option"
+    - "-fno-ms-extensions"
+  Remove:
+    - "-fstrict-volatile-bitfields"
+    - "-fno-tree-switch-conversion"
+    - "-fno-shrink-wrap"
+    - "-mlongcalls"
+  # This tells clangd to query the compiler for the system include paths
+  CompilerPath: /home/gian/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc
+
+# Alternative for older clangd versions:
+# query-driver: /home/gian/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc

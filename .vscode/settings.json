@@ -1,0 +1,16 @@
+{
+  "idf.currentSetup": "/home/gian/.espressif/v5.4.3/esp-idf",
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32s3",
+    "ADF_PATH": "/home/gian/.espressif/tools"
+  },
+  "idf.flashType": "UART",
+  "idf.port": "/dev/ttyACM0",
+  "idf.buildPath": "${workspaceFolder}/build",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=**",
+    "--compile-commands-dir=/home/gian/Scrivania/roloi/ESP-IDF/02_ESP_IDF_ST7789_LVGL/build"
+  ],
+  "clangd.path": "/home/gian/.espressif/tools/esp-clang/esp-18.1.2_20240912/esp-clang/bin/clangd"
+}

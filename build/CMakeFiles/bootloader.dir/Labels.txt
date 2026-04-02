@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/gian/Scrivania/roloi/ESP-IDF/02_ESP_IDF_ST7789_LVGL/build/CMakeFiles/bootloader
+/home/gian/Scrivania/roloi/ESP-IDF/02_ESP_IDF_ST7789_LVGL/build/CMakeFiles/bootloader.rule
+/home/gian/Scrivania/roloi/ESP-IDF/02_ESP_IDF_ST7789_LVGL/build/CMakeFiles/bootloader-complete.rule
+/home/gian/Scrivania/roloi/ESP-IDF/02_ESP_IDF_ST7789_LVGL/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/gian/Scrivania/roloi/ESP-IDF/02_ESP_IDF_ST7789_LVGL/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/gian/Scrivania/roloi/ESP-IDF/02_ESP_IDF_ST7789_LVGL/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/gian/Scrivania/roloi/ESP-IDF/02_ESP_IDF_ST7789_LVGL/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/gian/Scrivania/roloi/ESP-IDF/02_ESP_IDF_ST7789_LVGL/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/gian/Scrivania/roloi/ESP-IDF/02_ESP_IDF_ST7789_LVGL/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/gian/Scrivania/roloi/ESP-IDF/02_ESP_IDF_ST7789_LVGL/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
