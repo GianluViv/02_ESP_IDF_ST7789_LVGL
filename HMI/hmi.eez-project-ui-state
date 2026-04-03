@@ -1,6 +1,6 @@
 {
   "navigation": {
-    "selectedUserPageObject": "[../../../hmi/hmi.eez-project]:/userPages/-1",
+    "selectedUserPageObject": "[hmi.eez-project]:/userPages/0",
     "subnavigationSelectedItems": {}
   },
   "layoutModel": {
@@ -185,59 +185,57 @@
             {
               "type": "tabset",
               "id": "EDITORS",
-              "weight": 65,
+              "weight": 62.62038774233896,
               "enableDeleteWhenEmpty": false,
               "enableClose": false,
               "children": [
                 {
                   "type": "tab",
-                  "id": "#55dab857-6b98-4004-97e8-deac63b508d0",
+                  "id": "#a535e42a-1883-4458-9b16-5012ee83f1f6",
                   "name": "Settings",
                   "component": "editor",
                   "config": {
-                    "objectPath": "[../../../hmi/hmi.eez-project]:/settings",
-                    "subObjectPath": "[../../../hmi/hmi.eez-project]:/settings",
+                    "objectPath": "[hmi.eez-project]:/settings",
+                    "subObjectPath": "[hmi.eez-project]:/settings",
                     "permanent": false
                   },
                   "icon": "material:settings"
+                },
+                {
+                  "type": "tab",
+                  "id": "#68cf3955-a708-4e0c-93b9-11373fee6b31",
+                  "name": "Main",
+                  "component": "editor",
+                  "config": {
+                    "objectPath": "[hmi.eez-project]:/userPages/0",
+                    "permanent": false
+                  },
+                  "icon": "svg:page"
                 }
               ],
               "active": true
             },
             {
-              "type": "row",
-              "id": "#b4bdf34e-cf4d-48cf-bd35-db5b394ce92e",
-              "weight": 20,
+              "type": "tabset",
+              "id": "#4bef373c-baf3-4aee-99ac-daad8b9936c2",
+              "weight": 22.379612257661037,
+              "selected": 1,
               "children": [
                 {
-                  "type": "tabset",
-                  "id": "#4bef373c-baf3-4aee-99ac-daad8b9936c2",
-                  "weight": 2,
-                  "children": [
-                    {
-                      "type": "tab",
-                      "id": "PROPERTIES",
-                      "name": "Properties",
-                      "component": "propertiesPanel",
-                      "enableClose": false,
-                      "icon": "svg:properties"
-                    }
-                  ]
+                  "type": "tab",
+                  "id": "PROPERTIES",
+                  "name": "Properties",
+                  "component": "propertiesPanel",
+                  "enableClose": false,
+                  "icon": "svg:properties"
                 },
                 {
-                  "type": "tabset",
-                  "id": "#d9494bb7-8e03-4a0d-88df-7201268f2a91",
-                  "weight": 1,
-                  "children": [
-                    {
-                      "type": "tab",
-                      "id": "COMPONENTS_PALETTE",
-                      "name": "Components Palette",
-                      "component": "componentsPalette",
-                      "enableClose": false,
-                      "icon": "svg:components"
-                    }
-                  ]
+                  "type": "tab",
+                  "id": "COMPONENTS_PALETTE",
+                  "name": "Components Palette",
+                  "component": "componentsPalette",
+                  "enableClose": false,
+                  "icon": "svg:components"
                 }
               ]
             }
@@ -1051,13 +1049,15 @@
   "objects": {
     "[hmi.eez-project]:/userPages/0[flow-state]": {
       "selectionFront": {},
-      "selectionBack": {},
+      "selectionBack": {
+        "0": {}
+      },
       "transform": {
         "translate": {
-          "x": -400,
-          "y": -240
+          "x": -226.3046875,
+          "y": -224.0390625
         },
-        "scale": 1
+        "scale": 1.5
       },
       "timeline": {
         "isEditorActive": false,
@@ -1098,9 +1098,11 @@
   "selectedStylePropertyName": "",
   "lvglPart": "MAIN",
   "lvglState": "DEFAULT",
-  "lvglExpandedPropertiesGroup": [],
+  "lvglExpandedPropertiesGroup": [
+    "POSITION AND SIZE"
+  ],
   "showInactiveFlowsInDebugger": true,
   "globalFlowZoom": true,
-  "flowZoom": 1,
+  "flowZoom": 1.5,
   "implementationLanguage": "C"
 }
