@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "esp-idf-st7789-lvgl",
-    "project_version":    "1",
+    "project_version":    "78b6c7b-dirty",
     "project_path":       "/home/gian/Scrivania/roloi/ESP-IDF/02_ESP_IDF_ST7789_LVGL",
     "idf_path":           "/home/gian/.espressif/v5.4.3/esp-idf",
     "build_dir":          "/home/gian/Scrivania/roloi/ESP-IDF/02_ESP_IDF_ST7789_LVGL/build",
@@ -1255,8 +1255,8 @@
             "managed_reqs": [],
             "managed_priv_reqs": [ "espressif__esp_lcd_touch_cst816s", "espressif__esp_lvgl_port", "lvgl__lvgl" ],
             "file": "/home/gian/Scrivania/roloi/ESP-IDF/02_ESP_IDF_ST7789_LVGL/build/esp-idf/main/libmain.a",
-            "sources": [ "/home/gian/Scrivania/roloi/ESP-IDF/02_ESP_IDF_ST7789_LVGL/main/main.c", "/home/gian/Scrivania/roloi/ESP-IDF/02_ESP_IDF_ST7789_LVGL/main/img_test.c" ],
-            "include_dirs": [ "." ]
+            "sources": [ "/home/gian/Scrivania/roloi/ESP-IDF/02_ESP_IDF_ST7789_LVGL/main/main.c", "/home/gian/Scrivania/roloi/ESP-IDF/02_ESP_IDF_ST7789_LVGL/main/ui/ui.c", "/home/gian/Scrivania/roloi/ESP-IDF/02_ESP_IDF_ST7789_LVGL/main/ui/screens.c", "/home/gian/Scrivania/roloi/ESP-IDF/02_ESP_IDF_ST7789_LVGL/main/ui/images.c", "/home/gian/Scrivania/roloi/ESP-IDF/02_ESP_IDF_ST7789_LVGL/main/ui/styles.c" ],
+            "include_dirs": [ ".", "ui" ]
         },
         "mbedtls": {
             "alias": "idf::mbedtls",
@@ -2920,7 +2920,7 @@
             "priv_reqs": [ "espressif__esp_lcd_touch_cst816s", "espressif__esp_lvgl_port", "lvgl__lvgl" ],
             "managed_reqs": [],
             "managed_priv_reqs": [ "espressif__esp_lcd_touch_cst816s", "espressif__esp_lvgl_port", "lvgl__lvgl" ],
-            "include_dirs": [ "." ]
+            "include_dirs": [ ".", "ui" ]
         },
         "espressif__esp_lcd_touch": {
             "alias": "idf::espressif__esp_lcd_touch",

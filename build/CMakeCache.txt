@@ -14,9 +14,6 @@
 # EXTERNAL cache entries
 ########################
 
-//No help, variable specified on the command line.
-CCACHE_ENABLE:UNINITIALIZED=0
-
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/home/gian/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/xtensa-esp32s3-elf-addr2line
 
@@ -359,9 +356,6 @@ Mbed TLS_IS_TOP_LEVEL:STATIC=OFF
 Mbed TLS_SOURCE_DIR:STATIC=/home/gian/.espressif/v5.4.3/esp-idf/components/mbedtls/mbedtls
 
 //No help, variable specified on the command line.
-PYTHON:UNINITIALIZED=/home/gian/.espressif/tools/python/v5.4.3/venv/bin/python3
-
-//No help, variable specified on the command line.
 PYTHON_DEPS_CHECKED:UNINITIALIZED=1
 
 //No help, variable specified on the command line.
@@ -611,7 +605,7 @@ C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS:INTERNAL=1
 //Details about finding Git
 FIND_PACKAGE_MESSAGE_DETAILS_Git:INTERNAL=[/usr/bin/git][v2.53.0()]
 //Details about finding Python3
-FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/home/gian/.espressif/tools/python/v5.4.3/venv/bin/python3][found components: Interpreter ][v3.14.3()]
+FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/home/gian/.espressif/tools/python/v5.4.3/venv/bin/python][found components: Interpreter ][v3.14.3()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //ADVANCED property for variable: GIT_EXECUTABLE
@@ -622,10 +616,10 @@ _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/usr/local
 _Python3_Compiler_REASON_FAILURE:INTERNAL=
 //Development reason failure
 _Python3_Development_REASON_FAILURE:INTERNAL=
-_Python3_EXECUTABLE:INTERNAL=/home/gian/.espressif/tools/python/v5.4.3/venv/bin/python3
+_Python3_EXECUTABLE:INTERNAL=/home/gian/.espressif/tools/python/v5.4.3/venv/bin/python
 //Python3 Properties
 _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;14;3;32;64;;;abi3;/usr/lib/python3.14;/home/gian/.espressif/tools/python/v5.4.3/venv/lib/python3.14;/home/gian/.espressif/tools/python/v5.4.3/venv/lib/python3.14/site-packages;/home/gian/.espressif/tools/python/v5.4.3/venv/lib/python3.14/site-packages
-_Python3_INTERPRETER_SIGNATURE:INTERNAL=9e7cc6c72851a6694706bc17a6243441
+_Python3_INTERPRETER_SIGNATURE:INTERNAL=dc8f435badc58040326666eeea5ae00b
 //NumPy reason failure
 _Python3_NumPy_REASON_FAILURE:INTERNAL=
 
